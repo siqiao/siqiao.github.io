@@ -1,0 +1,415 @@
+<!doctype html>
+<html >
+ <head>
+  <meta charset="UTF-8">
+  <title>腾讯大学</title>
+  <link rel="stylesheet" type="text/css" href="../css/tenxun.css">
+ </head>
+ <body>
+	<nav>
+		<div class="navs">
+			<div class="nav-1">
+				<div class="nav-img">
+					<img src="../image/logo.jpg"/>
+				</div>
+				<div class="nav-a">
+					<div class="nav-a-1">
+						<a href="#" class="a1"></a>
+						<a href="#" class="a2"></a>
+						<a href="#" class="a3"></a>
+						<a href="#" class="a4"></a>
+						<a href="#" class="a5"></a>
+						<a href="#" class="a6"></a>
+						<a href="#" class="a7"></a>
+					</div>
+					<div class="nav-a-2">
+						<img src="../image/login.png" style="width:34px;height:34px;"/>
+						<a href="#">登录</a>
+					</div>
+				</div>
+			</div>
+		</div>
+	</nav>
+	<div class="xuanchuan">
+		<img src="../image/xuanchuan.jpg"/>	
+	</div>
+	<div class="zhibo">
+		<div class="zhibo-img1">
+			<img src="../image/live-title.png">	
+		</div>
+		<div class="zhibos">
+			<div class="zhibos-img">
+				<img src="../image/zhibo.png">
+			</div>
+			<div class="zhibos-a">
+				<a href="#">微信公开课第五季上海站--从消费机到企业级 聚变企业互联</a>
+				<div style="height:14px;vertical-align:middle;margin-top:12px">
+					<img src="../image/time.jpg"/ style="float:left;width:14px;width:14px;height:14px;">
+					<p style="color:#888;float:left;width:465px;margin:16px 0 0 6px;">2016年07月19日</p>
+				</div>
+
+				<p style="margin-top:30px;">第五季微信公开课上海站将于7月19日开课，本站公开课微信将聚焦点放在“企业”。企业微信，微信企业号，腾讯云，腾讯企业级产品首次集体亮相！</p>
+			</div>
+		</div>
+	</div>
+	<div class="bodys">
+		<div class="center">
+			<div class="rights">
+				<div class="rights-h">
+					<img src="../image/icon-rank.png"/ align="absmiddle">
+					<a href="#">排行榜</a>
+				</div>	
+				<div class="rights-h1">
+					<a href="#" class="rights-a1">最热排行</a>
+					<a href="#" class="rights-a2">最新上课</a>
+					<img src="../image/rights.png" style="margin-top:-35px;"/>
+				</div>
+				<div class="rights-1">
+					<a href="#">
+						<span class="rights-1-p">
+							<p class="rights-1-p1" style="width:22px;text-align:center;line-height:26px;">1</p>
+							<p class="rights-1-p2" >刘超：互联网新时代需要什么样...</p>
+						</span>
+					</a>
+				</div>
+				<div class="rights-2">
+					<a href="#">
+						<span class="rights-2-p">
+							<p class="rights-2-p1" style="width:22px;text-align:center;line-height:26px;">2</p>
+							<p class="rights-2-p2" >马化腾：腾讯将专注于做互联网...</p>
+						</span>
+					</a>
+				</div>
+				<div class="rights-3">
+					<a href="#">
+						<span class="rights-3-p">
+							<p class="rights-3-p1" style="width:22px;text-align:center;line-height:26px;">3</p>
+							<p class="rights-3-p2" >张小龙：微信四大价值观</p>
+						</span>
+					</a>
+				</div>
+				<div class="rights-4">
+					<a href="#">
+						<span class="rights-4-p">
+							<p class="rights-4-p1" style="width:22px;text-align:center;line-height:26px;">4</p>
+							<p class="rights-4-p2" >马化腾：通向互联网未来的七个...</p>
+						</span>
+					</a>
+				</div>
+				<div class="rights-5">
+					<a href="#">
+						<span class="rights-5-p">
+							<p class="rights-5-p1" style="width:22px;text-align:center;line-height:26px;">5</p>
+							<p class="rights-5-p2" >微信支付：实体商业互联网化的...</p>
+						</span>
+					</a>
+				</div>
+				<div class="rights-leibiao">
+					<ul class="rights-ul">
+						<li style="list-style-image:url(../image/06.jpg); overflow:hidden;"><a href="#" >微信支付对实体商业的价值几何？</a></li>
+						<li style="list-style-image:url(../image/07.jpg);"><a href="#">下一个风口在哪儿</a></li>
+						<li style="list-style-image:url(../image/08.jpg);"><a href="#">腾讯CXO David：探索未来是为了改进人类生活</a></li>
+						<li style="list-style-image:url(../image/09.jpg);"><a href="#">马化腾演讲：腾讯现在只做两件事</a></li>
+						<li style="list-style-image:url(../image/10.jpg);"><a href="#">微信公开课第二季 广州站讨论环节</a></li>
+					</ul>
+				</div>
+				<div class="rights-massage">
+					<div class="rights-massage-1">
+						<img src="../image/message.png"/>
+					</div>
+					<div class="rights-massage-p">
+						<p style="margin-top:20px;font-size:20px;">腾讯大学</p>	
+						<p style="margin-top:20px;font-size:14px;">腾讯大学作为腾讯特色的学习交流平台，服务于腾讯合作伙伴及用户，面向互联网产业链，传播腾讯经验，分享行业知识及优秀实践，助力合作伙伴成长，推动开放共赢的互联网生态圈的建立。</p>
+					</div>	
+				</div>
+				<div class="rights-phone">
+					<img src="../image/phone.jpg"/ align="absmiddle">
+					<a href="#">联系我们</a>
+				</div>
+				<div class="rights-hezuo">
+					<p>合作：<a href="#">university@tencent.com</a></p>
+					<p style="margin-top:12px;">QQ：2813343187</p>
+				</div>
+				<div class="rights-zaixian">
+					<p><b>在线考试</b></p>
+					<a></a>
+				</div>
+			</div>
+			<div class="erweima">
+				
+			</div>
+			<div class="lesson">
+				<div class="lesson-h">
+					<img src="../image/icon-lesson.png"/ align="absmiddle">
+					<a href="#">热门课程</a>
+					<a href="#" style="float:right;margin-rignt:20px;color:#888;font-size:14px;text-decoration:none;">more</a>
+				</div>
+				<div class="lesson-1">
+					<div class="lesson-1-img">
+						<img src="../image/lesson-1.jpg"/>
+					</div>
+					<div>
+						<a href="#">腾大直播间|从红海中寻找生路的计划。</a>	
+						<p>腾大直播间再要重磅嘉宾--腾讯专家级产品经理陈起儒，分享其在腾讯10年来...</p>
+					</div>
+				</div>
+				<div class="lesson-2">
+					<img src="../image/lesson-2.png"/>
+					<div>
+						<a href="#">张泉灵：内容创业的本质与发明者。</a>	
+						<p>2016年6月，紫牛基金合伙人，原央视著名主持人张泉灵的内容红利时代--“T...</p>
+					</div>
+				</div>
+				<div class="lesson-3">
+					<img src="../image/lesson-3.jpg"/>
+					<div>
+						<a href="#">黄峰：X Thinking</a>	
+						<p>2016年7月，唐硕创始人黄峰在2016国际体验设计大会上就“X Thinking”进行了...</p>
+					</div>
+				</div>
+			</div>
+
+			<div class="share">
+				<div class="share-title">
+					<img src="../image/title.jpg"/ align="absmiddle">
+					<a href="#">干货分享</a>
+					<a href="#" style="float:right;margin-rignt:20px;color:#888;font-size:14px;">more</a>
+				</div>
+				<div class="share-1">
+					<div class="share-1-img">
+						<img src="../image/share-1.jpg"/>
+					</div>
+					<div class="share-1-a">
+						<a >微信智慧工坊online第一堂：餐饮店如何玩转数字化运营</a>
+						<div style="height:14px;vertical-align:middle;margin-top:12px">
+							<img src="../image/time.jpg"/ style="float:left;width:14px;width:14px;height:14px;">
+							<p style="color:#888;float:left;width:465px;margin:0 0 0 6px;">2016-05-26 15:11</p>
+						</div>
+						<p >由微信智慧工坊全新打造的在线课堂“微信智慧工坊Online”,于6月2日正式上线，首期餐饮专场邀请到“九毛九”山西面馆创始人管毅宏分享</p>
+					</div>	
+				</div>
+				<div class="share-2">
+					<div class="share-2-img">
+						<img src="../image/share-2.png"/>
+					</div>
+					<div class="share-2-a">
+						<a >腾大有客|国家天文台行星科学家郑永春：人类迈向深空的探索任务。</a>
+						<div style="height:14px;vertical-align:middle;margin-top:12px">
+							<img src="../image/time.jpg"/ style="float:left;width:14px;width:14px;height:14px;">
+							<p style="color:#888;float:left;width:465px;margin:0 0 0 6px;">2016-08-26 18:44</p>
+						</div>
+						<p >中国科学院国家天文台行星科学家、科普作家郑永春博士做客腾讯，分享过去航天时代对宇宙的探索，及未来50年的航天技术的展望。</p>
+					</div>
+				</div>
+				<div class="share-3">
+					<div class="share-3-img">
+						<img src="../image/share-3.jpg"/>
+					</div>
+					<div class="share-2-a">
+						<a >Joe Weinman、鄭香霖:“云”如何变革营销</a>
+						<div style="height:14px;vertical-align:middle;margin-top:12px">
+							<img src="../image/time.jpg"/ style="float:left;width:14px;width:14px;height:14px;">
+							<p style="color:#888;float:left;width:465px;margin:0 0 0 6px;">2016-05-26 15:11</p>
+						</div>
+						<p >2016年7月，全球顶尖云计算战略家乔•韦曼先生（Joe Weinman）讲述“云”对商业模式、市场营销、消费者关系的深刻影响，并与腾讯公司副总裁洽谈工作。</p>
+					</div>
+				</div>
+			</div>
+
+			<div class="zhuanti">
+				<div class="zhuanti-h">
+					<img src="../image/icon-lesson.png" align="absmiddle"/>
+					<a href="#">专题讲座</a>
+					<a href="#" style="float:right;margin-rignt:20px;color:#888;font-size:14px;text-decoration:none;">more</a>
+				</div>
+				<div class="zhuanti-1">
+					<div class="zhuanti-1-img">
+						<img src="../image/zhuanti-1.jpg"/>
+					</div>
+					<div>
+						<a href="#">8月小情书：当滴滴遇上uber</a>	
+						<p>从今天开始，小腾老师决定每月为你写一封情书，为你推荐当月最值得看的...</p>
+					</div>
+				</div>
+				<div class="zhuanti-2">
+					<img src="../image/zhuanti-2.png"/>
+					<div>
+						<a href="#">微信公开课第五季上海站</a>	
+						<p>第五季微信公开课上海站于7月19日开课，本站公开课微信将聚焦点放在“企业”...</p>
+					</div>
+				</div>
+				<div class="zhuanti-3">
+					<img src="../image/zhuanti-3.png"/>
+					<div>
+						<a href="#">ArchSummit全球架构师峰会</a>	
+						<p>ArchSummit全球架构师峰会是面向高端技术管理者，架构师的技术大会。</p>
+					</div>
+				</div>
+			</div>
+
+			<div class="kecheng">
+				<div class="kecheng-h">
+					<img src="../image/icon-lesson.png" align="absmiddle"/>
+					<a href="#">精品课程</a>
+					<a href="#" style="float:right;margin-rignt:20px;color:#888;font-size:14px;">more</a>
+				</div>	
+				<div class="kecheng-1">
+					<div class="kecheng-1-h">
+						<p style="margin:0 0 0 33px;color:#9dddee;">产品</p>
+						<a href="#" style="float:right;margin-rignt:20px;color:#888;font-size:12px;text-decoration:none;margin-top:0;">more</a>
+					</div>
+					<div class="kecheng-1-img">
+						<img src="../image/kecheng-1.jpg"/>
+					</div>
+					<div class="kecheng-1-a">
+						<a href="#">李三水：野狗三字经</a>	
+						<p>2016年3月，W上海广告公司创始人李三水就野狗的三字经原则做了相关分享，李三水分享W公司的野狗文化，...</p>
+					</div>
+					<div class="kecheng-1-ul">
+						<ul>
+							<li style="list-style-image:url(../image/sanjiao.jpg);"><a href="#">2015腾讯研究院年度报告发布会</a></li>
+							<li style="list-style-image:url(../image/sanjiao.jpg);"><a href="#">鹅厂wo谈会：直击！面试攻略全解读！</a></li>
+						</ul>
+					</div>
+				</div>
+
+				<div class="kecheng-2">
+					<div class="kecheng-2-h">
+						<p style="margin:0 0 0 33px;color:#f6a544;">营销销售</p>
+						<a href="#" style="float:right;margin-rignt:20px;color:#888;font-size:12px;text-decoration:none;margin-top:0;">more</a>
+					</div>
+					<div class="kecheng-2-img">
+						<img src="../image/kecheng-2.png"/>
+					</div>
+					<div class="kecheng-2-a">
+						<a href="#">飞利浦科特勒经典分享--新媒体营销</a>	
+						<p>如何面对并迎接全球挑战如何建立营销组织如何实现传统营销到数字化营销的转变如何改变营销3.0时代...</p>
+					</div>
+					<div class="kecheng-2-ul">
+						<ul>
+							<li style="list-style-image:url(../image/sanjiao.jpg);"><a href="#">新平台 大未来</a></li>
+							<li style="list-style-image:url(../image/sanjiao.jpg);"><a href="#">你想成为创业者吗？</a></li>
+						</ul>
+					</div>
+				</div>
+
+				<div class="kecheng-3">
+					<div class="kecheng-3-h">
+						<p style="margin:0 0 0 33px;color:#fa6c36;">技术</p>
+						<a href="#" style="float:right;margin-rignt:20px;color:#888;font-size:12px;text-decoration:none;margin-top:0;">more</a>
+					</div>
+					<div class="kecheng-3-img">
+						<img src="../image/kecheng-3.png"/>
+					</div>
+					<div class="kecheng-3-a">
+						<a href="#">广点通操作入门 4 - 数据监控</a>	
+						<p>《广点通操作入门》系列课程主要面对初次接触广点通的入门级广告主，详细讲解常用的基础操作，帮助广告...</p>
+					</div>
+					<div class="kecheng-3-ul">
+						<ul>
+							<li style="list-style-image:url(../image/sanjiao.jpg);"><a href="#">广点通操作入门 3 - 修改调整</a></li>
+							<li style="list-style-image:url(../image/sanjiao.jpg);"><a href="#">广点通操作入门 2 - 创建广告</a></li>
+						</ul>
+					</div>
+				</div>
+
+				<div class="kecheng-4">
+					<div class="kecheng-4-h">
+						<p style="margin:0 0 0 33px;color:#b5be00;">通用素质</p>
+						<a href="#" style="float:right;margin-rignt:20px;color:#888;font-size:12px;text-decoration:none;margin-top:0;">more</a>
+					</div>
+					<div class="kecheng-4-img">
+						<img src="../image/kecheng-4.jpg"/>
+					</div>
+					<div class="kecheng-4-a">
+						<a href="#">熟悉这些神级办公软件，你将极速成为职场战神</a>	
+						<p>熟悉这些神级办公软件，你将极速成为职场战神</p>
+					</div>
+					<div class="kecheng-4-ul">
+						<ul>
+							<li style="list-style-image:url(../image/sanjiao.jpg);"><a href="#">互联网金融大潮下微众布局</a></li>
+							<li style="list-style-image:url(../image/sanjiao.jpg);"><a href="#">未来如何“飞”？-MOOC形式的在线教育未来的发展与挑战</a></li>
+						</ul>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<footer class="footer">
+		<hr style="height:2px;border:none;border-top:2px solid #1fc0ef;width:395px;float:left;"/>
+		<hr style="height:2px;border:none;border-top:2px solid #f6a544;width:395px;float:left;"/>
+		<hr style="height:2px;border:none;border-top:2px solid #8cbe00;width:395px;float:left;"/>
+		<hr style="height:2px;border:none;border-top:2px solid #ff6c00;width:395px;float:left;"/>
+		<div class="footer-kaifang">
+			<div class="footer-kaifangs">
+				<div class="footer-kaifang-left">
+					<h4>开发平台</h4>
+					<div class="footer-shangbiao">
+						<div class="footer-shangbiao-1">
+							<a href="#"><img src="../image/ke.png"></a>
+							<a href="#"><img src="../image/QQ.jpg"></a>
+							<a href="#"><img src="../image/GAD.png"></a>
+							<a href="#"><img src="../image/YUN.png"></a>
+							<a href="#"><img src="../image/game.jpg"></a>
+							<a href="#"><img src="../image/caifu.jpg"></a>
+						</div>
+						<div class="footer-shangbiao-2">
+							<a href="#"><img src="../image/mail.jpg"></a>
+							<a href="#"><img src="../image/DIS.jpg"></a>
+							<a href="#"><img src="../image/shuju.png"></a>
+							<a href="#"><img src="../image/pingtai.png"></a>
+							<a href="#"><img src="../image/guangao.png"></a>
+							<a href="#"><img src="../image/bugly_logo.jpg"></a>
+						</div>
+						<div class="footer-shangbiao-3">
+							<a href="#"><img src="../image/wetest_logo.png"></a>
+							<a href="#"><img src="../image/meia.png"></a>
+							<a href="#" style="text-align:center;line-height:30px;">更多</a>
+						</div>
+					</div>
+				</div>
+				<div class="footer-kaifang-right">
+					<p style="margin:35px 0 0 40px;">收听微博</p>
+					<a><img src="../image/opentweibo.png"></a>
+					<p style="margin:15px 0 0 40px;">关注空间</p>
+					<a><img src="../image/openzone.png"></a>
+					</div>
+			</div>
+			<div class="footer-center">
+			<h4>合作伙伴</h4>
+			<div class="footer-lianjie">
+				<div class="footer-lianjie-1">
+					<a href="#">腾讯云论坛</a>
+					<a href="#">TechWeb</a>
+					<a href="#">CSDN</a>
+					<a href="#">36Kr</a>
+					<a href="#">DoNews</a>
+					<a href="#">APP游戏部落</a>
+					<a href="#">天极网 </a>
+					<a href="#">凤凰网科技频道</a>
+				</div>
+				<div class="footer-lianjie-2">
+					<a href="#">易观网</a>
+					<a href="#">馒头商学院</a>
+					<a href="#">雷锋网</a>
+					<a href="#">飞象网</a>
+					<a href="#">数码港</a>
+					<a href="#">艾瑞网</a>
+					<a href="#">落伍者</a>
+					<a href="#">LAMP人 </a>
+					<a href="#">QQ浏览器</a>
+				</div>
+			</div>		
+		</div>
+		<div class="footer-end">
+			<div class="footer-end-a">
+				<a href="#">服务协议  |</a>
+				<a href="#">隐私政策  |</a>
+				<a href="#">版权保护投诉指引</a>	
+			</div>
+			<br/><p>Copyright © 1998 - 2016 Tencent. All Rights Reserved.</p>
+			<p>腾讯公司 版权所有</p>
+		</div>
+	</footer>
+ </body>
+</html>
