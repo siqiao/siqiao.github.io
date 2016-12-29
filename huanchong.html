@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style>
+        #mycanvas{
+            background: #eeeeee;
+            position: absolute;
+            left: 0;
+            right: 0;
+            top: 0;
+            bottom: 0;
+            margin:auto;
+        }
+    </style>
+</head>
+<body>
+<canvas id="mycanvas" height="500px" width="500px">
+    当前浏览器不支持canvas
+</canvas>
+</body>
+
+<script>
+    var oCanvas = document.getElementById("mycanvas");
+    //绘制环境
+    var mycanvas = oCanvas.getContext("2d");
+
+    function draw(deg){
+        mycanvas.lineWidth = 6;
+        for (var  i=1;i<=361;i++){
+            var red = 200;
+            var green = 155;
+            var blue = 170;
+            var alpha = i/360;
+            mycanvas.beginPath();
+            mycanvas.strokeStyle="rgba("+[red,green,blue,alpha].join(",")+")";
+            mycanvas.arc(100,100,50,(i-1+deg)*Math.PI/180,(i+deg)*Math.PI/180,false);
+            mycanvas.stroke();
+        }
+    }
+
+    var deg = 0;
+    setInterval(function(){
+        mycanvas.clearRect(0,0,500,500);
+        deg +=1;
+        draw(deg);
+
+        mycanvas.beginPath();
+        mycanvas.fillStyle = "black";
+        mycanvas.fillText("waiting",78,102);
+        mycanvas.closePath();
+    },30)
+</script>
+</html>

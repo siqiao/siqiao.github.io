@@ -23,8 +23,8 @@
       <file leaf-file-name="taobao.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/html/taobao.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="30">
-              <caret line="1926" column="29" lean-forward="false" selection-start-line="1926" selection-start-column="29" selection-end-line="1926" selection-end-column="29" />
+            <state relative-caret-position="300">
+              <caret line="1935" column="10" lean-forward="false" selection-start-line="1935" selection-start-column="10" selection-end-line="1935" selection-end-column="10" />
               <folding />
             </state>
           </provider>
@@ -49,8 +49,7 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="-245" />
-    <option name="y" value="114" />
+    <option name="x" value="17" />
     <option name="width" value="1616" />
     <option name="height" value="876" />
   </component>
@@ -69,6 +68,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
@@ -118,11 +118,10 @@
           </PATH>
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="last_opened_file_path" value="F:/项目/添加商品至购物车" />
+    <property name="last_opened_file_path" value="E:/jojo/c3 h5/练习" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="HbShouldOpenHtmlAsHb" value="" />
   </component>
@@ -137,20 +136,22 @@
       <option name="presentableId" value="Default" />
       <updated>1477964696452</updated>
       <workItem from="1482809180364" duration="20000" />
+      <workItem from="1482914029952" duration="78000" />
+      <workItem from="1482977841986" duration="212000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="20000" />
+    <option name="totallyTimeSpent" value="310000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-245" y="114" width="1616" height="876" extended-state="0" />
-    <editor active="false" />
+    <frame x="17" y="0" width="1616" height="876" extended-state="0" />
+    <editor active="true" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24968314" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
@@ -177,6 +178,22 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/html/taobao.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/taobao.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="6900">
+          <caret line="230" column="54" lean-forward="false" selection-start-line="230" selection-start-column="54" selection-end-line="230" selection-end-column="98" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/html/taobao.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -253,18 +270,18 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/../名鞋库/html/shoes.html" />
     <entry file="file://$PROJECT_DIR$/../腾讯大学/html/tenxun.html" />
-    <entry file="file://$PROJECT_DIR$/css/taobao.css">
+    <entry file="file://$PROJECT_DIR$/html/taobao.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="6900">
-          <caret line="230" column="54" lean-forward="false" selection-start-line="230" selection-start-column="54" selection-end-line="230" selection-end-column="98" />
+        <state relative-caret-position="300">
+          <caret line="1935" column="10" lean-forward="false" selection-start-line="1935" selection-start-column="10" selection-end-line="1935" selection-end-column="10" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/html/taobao.html">
+    <entry file="file://$PROJECT_DIR$/css/taobao.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="1926" column="29" lean-forward="false" selection-start-line="1926" selection-start-column="29" selection-end-line="1926" selection-end-column="29" />
+        <state relative-caret-position="6900">
+          <caret line="230" column="54" lean-forward="false" selection-start-line="230" selection-start-column="54" selection-end-line="230" selection-end-column="98" />
           <folding />
         </state>
       </provider>

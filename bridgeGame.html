@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>小游戏</title>
+    <style>
+        *{
+            padding: 0;
+            margin: 0;
+        }
+        #mycanvas{
+            background: #abcdef;
+            /*position: absolute;
+            left: 0;
+            right: 0;
+            top: 0;
+            bottom: 0;
+            margin:auto;*/
+        }
+    </style>
+</head>
+<body>
+<canvas id="mycanvas" height="500px" width="500px">
+    当前浏览器不支持canvas
+</canvas>
+</body>
+
+<script>
+    var oCanvas = document.getElementById("mycanvas");
+    //绘制环境
+    var mycanvas = oCanvas.getContext("2d");
+    //初始三个小黑块
+    var j1x=0,j1y= 0,j1k= 0,j1w=60;
+    var j2x=0,j2y= 0,j2k= 0,j2w=0;
+    var j3x=0,j3y= 0,j3k= 0,j3w=0;
+    //初始小红块 和 分数
+    var playx=40,playy=330,fenshu=0;
+    //棍子
+    var gunzic= 0,gunzix=60,gunziy=350;
+
+    start();
+    function start(){
+        mycanvas.clearRect(0,0,500,500);
+        /*j1x=0,j1y= 0,j1k= 0,j1w=60;
+        j2x=0,j2y= 0,j2k= 0,j2w=0;
+        j3x=0,j3y= 0,j3k= 0,j3w=0;
+        playx=40,playy=330,fenshu=0;
+        gunzic= 0,gunzix=60,gunziy=350;*/
+
+        window.addEventListener("keydown",doKeydown,false);
+        window.addEventListener("keyup",doKeyup,false);
+
+        mycanvas.fillStyle="black";
+        mycanvas.fillRect(j1x,350,j1w,150);
+        //mycanvas.stroke();
+        j2x = Math.floor(Math.random()*150+20)+j1x+j1w; //+20 最小距为20
+        j2w = Math.floor(Math.random()*50+20);
+        mycanvas.fillRect(j2x,350,j2w,150);
+        j3x = Math.floor(Math.random()*150+20)+j2x+j2w; //+20 最小距为20
+        j3w = Math.floor(Math.random()*50+20);
+        mycanvas.fillRect(j3x,350,j3w,150);
+        mycanvas.fillStyle = "red";
+        mycanvas.fillRect(playx,playy,20,20)
+
+        score();
+    }
+
+    function score(){
+        mycanvas.fillStyle="#fff";
+        mycanvas.font = "40px 宋体";
+        mycanvas.fillText(fenshu,130,40);
+
+    }
+    var gunziys;
+    function doKeydown(e){
+        var keyId = e.keyCode? e.keyCode: e.which;  //兼容
+        if(keyId == 32){
+            mycanvas.strokeStyle="blueviolet";
+            mycanvas.lineWidth=3;
+            mycanvas.moveTo(playx+20,playy+20);
+            mycanvas.lineTo(gunzix,gunziy);
+            mycanvas.stroke();
+            gunziy -=5; //控制棍子伸长速度
+            gunzic = 350-gunziy;
+        }else if(keyId == 13){
+            start();
+        }else {
+            alert("请按回车或空格键");
+        }
+
+        /*gunziys = 345-gunziy;*/
+    }
+    function doKeyup(e){
+        var keyId = e.keyCode? e.keyCode: e.which;
+        if(keyId ==32){
+            mycanvas.clearRect(playx+18,playy+20,4,-345);
+
+            gunziy = 350;
+            mycanvas.beginPath();
+            mycanvas.strokeStyle = "blueviolet";
+            mycanvas.lineWidth = 4;
+            mycanvas.moveTo(playx+20,playy+20);
+            mycanvas.lineTo(playx+20+gunzic,playy+20);
+            mycanvas.stroke();
+            moveplayer();
+        }
+    }
+
+    function moveplayer(){
+        mycanvas.clearRect(playx,playy,20,20);
+
+        mycanvas.beginPath();
+        mycanvas.fillStyle="red";
+        playx=playx+5; //控制小滑块的滚动
+        mycanvas.fillRect(playx,playy,20,20);
+        mycanvas.stroke();
+        if(playx<=(gunzic+j1w-20)){
+            setTimeout(moveplayer,20);
+        }else if((j1w+gunzic)>j2x&&j1w+gunzic<(j2x+j2w)){
+            mycanvas.beginPath();
+            mycanvas.clearRect(playx,playy,20,20);
+            mycanvas.beginPath();
+            mycanvas.fillStyle = "red";
+            playx = j2w+j2x-20;
+            mycanvas.fillRect(playx,playy,20,20);
+            fenshu++;
+            moveall();
+
+        }else {
+            gameover();
+        }
+        function  moveall(){
+            mycanvas.fillStyle = "#abcdef";
+            mycanvas.fillRect(0,0,500,500);
+            j1x--;
+            j2x--;
+            j3x--;
+            playx--;
+            mycanvas.fillStyle = "black";
+            mycanvas.fillRect(j1x,350,j1w,150);
+            mycanvas.fillRect(j2x,350,j2w,150);
+            mycanvas.fillRect(j3x,350,j3w,150);
+            mycanvas.fillStyle = "red";
+            mycanvas.fillRect(playx,playy,20,20);
+            score();
+            if(j2x!=0){
+                setTimeout(moveall,5);
+            }else {
+                dataChange()
+            }
+
+        }
+
+        function dataChange(){
+            j1x = j2x;
+            j1w = j2w;
+            j2x = j3x;
+            j2w = j3w;
+            j3x = Math.floor(Math.random()*150+20)+j2x+j2w; //+20 最小距为20
+            j3w = Math.floor(Math.random()*50+20);
+            gunzix = j1w;
+        }
+        function gameover(){
+            mycanvas.fillStyle = "#abcdef";
+            mycanvas.fillRect(0,0,500,500);
+            mycanvas.fillStyle = "#fff";
+            mycanvas.font="40px 宋体";
+            mycanvas.fillText("point:"+fenshu,60,300);
+            mycanvas.fillStyle = "red";
+            mycanvas.fillText("Game Over",60,200);
+            mycanvas.fillText("Please Enter",60,400);
+        }
+    }
+</script>
+</html>
